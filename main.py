@@ -1,6 +1,8 @@
 import argparse
 import pandas as pd
 
+from news_volume_scraper import NewsVolumeScraper
+
 if __name__ == '__main__':
     parser = argparse.ArgumentParser()
     parser.add_argument('--ticker', '-t', type=str, required=True, help='Ticker to search for.')
