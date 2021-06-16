@@ -1,4 +1,3 @@
-import argparse
 import datetime
 import pandas as pd
 import random
